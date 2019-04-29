@@ -15,8 +15,7 @@ function winCount(){
                 // if(counterJs >= 3){
                 //     console.log("Yang menang sudah 3 orang!");
                     document.getElementById("gif").src = "gagal.gif";
-                    document.getElementById("gif").addEventListener("click", setTextZonk); 
-                    // setTimeout(setTextZonk, 1200);
+                    setTimeout(setTextZonk, 1200);
                 // }else{
                 //     counterJs += 1;
                 //     console.log(counterJs);
